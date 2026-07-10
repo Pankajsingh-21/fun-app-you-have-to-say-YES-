@@ -8,7 +8,6 @@ Every time you try to click the **No** button, it jumps to a new random position
 
 🔗 https://spectacular-licorice-b371bb.netlify.app/
 
-> Replace the link above with your actual Netlify URL.
 
 ---
 
