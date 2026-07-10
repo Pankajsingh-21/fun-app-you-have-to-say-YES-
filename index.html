@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Me New Laptop</title>
+    <!-- Google Fonts: Luckiest Guy -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="landing-container">
+        <img id="chibi-display" src="happy.png" alt="Chibi Emotion">
+        <h1 class="main-heading">BUY ME NEW LAPTOP</h1>
+        <button id="stay-btn" class="action-btn">haaa kyu nhi</button>
+        <button id="moving-btn" class="action-btn">naaaa aaa</button>
+    </div>
+
+    <!-- Celebration Screen Overlay -->
+    <div id="celebration-screen">
+        <h2 class="celeb-heading">CONGRATULATIONS!</h2>
+        <div class="payment-details">
+            <!-- QR Code Upload Section -->
+            <div class="qr-upload-container" id="qr-upload-container">
+                <input type="file" id="qr-file-input" accept="image/*">
+                <div class="qr-placeholder" id="qr-placeholder">
+                    <div class="qr-box-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="7" height="7" rx="1"></rect>
+                            <rect x="14" y="3" width="7" height="7" rx="1"></rect>
+                            <rect x="14" y="14" width="7" height="7" rx="1"></rect>
+                            <rect x="3" y="14" width="7" height="7" rx="1"></rect>
+                            <path d="M7 7h.01M17 7h.01M17 17h.01M7 17h.01"></path>
+                        </svg>
+                    </div>
+                    <p class="qr-placeholder-text">UPLOAD QR CODE</p>
+                    <p class="qr-placeholder-subtext">Click or drag & drop</p>
+                </div>
+                <div class="qr-preview-wrapper" id="qr-preview-wrapper">
+                    <img id="qr-preview" src="" alt="QR Code Preview">
+                    <button type="button" class="qr-remove-btn" id="qr-remove-btn" aria-label="Remove QR Code">×</button>
+                </div>
+            </div>
+            
+            <button class="action-btn">Send me money now</button>
+            <p class="payment-number">999999999</p>
+            <p class="payment-cta">Now pay 😁</p>
+        </div>
+    </div>
+
+    <audio id="celebration-audio" src="yaa.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
