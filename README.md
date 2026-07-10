@@ -67,17 +67,6 @@ Use **Live Server** in VS Code.
 
 ---
 
-## 📸 Preview
-
-Add a screenshot or GIF here later.
-
-Example:
-
-```
-preview.png
-```
-
----
 
 ## 💡 Purpose
 
